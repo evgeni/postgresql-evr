@@ -1,4 +1,4 @@
-FROM postgres:12@sha256:f9e8ae1fbd03f2c48d843efe7484f45913ef0283a60dec7ad0bd36a80158245b
+FROM postgres:16@sha256:302de9d3235dbab5e89a87f889663116259eb7bce4aaeaaa6a1117daaa9a4750
 
 COPY Makefile *.control *.sql /src/
 
